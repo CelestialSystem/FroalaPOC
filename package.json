@@ -1,0 +1,28 @@
+{
+  "name": "froEditor",
+  "version": "1.0.1-beta.2",
+  "description": "A basic Lattice App",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo 'test'",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@latticejs/froala-editor": "file:../lattice/packages/froala-editor",
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-froala-wysiwyg": "^3.0.6",
+    "typeface-roboto": "^0.0.54"
+  },
+  "devDependencies": {
+    "froala-editor": "^3.0.6",
+    "react-scripts": "^1.1.0"
+  }
+}
